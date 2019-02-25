@@ -3,10 +3,17 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "bin": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Finnur Eiriksson <klauvi@gmail.com> (http://klauvi.is)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/node": "^11.9.5"
+  }
 }
