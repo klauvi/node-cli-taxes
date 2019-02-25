@@ -81,6 +81,7 @@ const submitOrder = form =>
   });
 
 /**
+ * Calculates total and returns form object to be sent to /api/order
  *
  * @param {string} zipcode Zipcode
  * @param {string} tax_rate tax rate for given zipcode
